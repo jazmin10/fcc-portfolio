@@ -50,5 +50,28 @@ body {
 	margin-top: 0px;
 }
 
+/* ======= PROJECTS SECTION ======= */
+#projects {
+	/* Creates multiple rows of .project-title
+	(must also set width of .project-title)  */
+	display: flex;
+	flex-wrap: wrap;
+	/* ========================== */
+	justify-content: space-around;
+	padding: 60px 40px;
+}
 
-/* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+.project-title {
+	width: 30%;
+	margin-bottom: 40px;
+}
+
+.project-image {
+	width: 100%;
+}
+
+
+
+
+
+
