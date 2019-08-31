@@ -1,13 +1,31 @@
 /* ======= GENERAL STYLING ======= */
-/*body {
+body {
 	margin: 0;
-}*/
+}
 
 /* ======= NAVBAR ======= */
-/*#navbar {
+#navbar {
 	background: #330867;
 	overflow: auto;
-}*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
+#navbar-list {
+	display: flex;
+	justify-content: flex-end;
+	margin: 30px 0px;
+}
+
+.navbar-link {
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+.navbar-link a {
+	color: #fff;
+	text-decoration: none;
+}
 
 /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
