@@ -64,12 +64,25 @@ body {
 .project-title {
 	width: 30%;
 	margin-bottom: 40px;
+	border: 1px solid #330867;
 }
 
 .project-image {
 	width: 100%;
+	display: block;
 }
 
+.project-text {
+	background: #330867;
+	color: #30cfd0;
+	text-align: center;
+	margin: 0;
+	padding: 18px 0px;
+}
+
+.project-icon {
+	color: #330867;
+}
 
 
 
