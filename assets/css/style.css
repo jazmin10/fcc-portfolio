@@ -33,12 +33,22 @@ body {
 #welcome-section {
 	height: 100vh;
 	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	
+	/* Centers text horizontally and vertically */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	/* =========================== */
 }
 
+#welcome-section h1 {
+	margin-bottom: 10px;
+}
+
+#welcome-section p {
+	margin-top: 0px;
+}
 
 
 /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
