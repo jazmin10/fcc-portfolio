@@ -5,10 +5,11 @@ body {
 
 /* ======= NAVBAR ======= */
 #navbar {
-	background: #330867;
+	background: #fff;
 	overflow: auto;
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
 }
 
@@ -24,8 +25,20 @@ body {
 }
 
 .navbar-link a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
+
+/* ======= WELCOME SECTION ======= */
+#welcome-section {
+	height: 100vh;
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
 
 /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
