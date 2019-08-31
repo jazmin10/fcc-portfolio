@@ -85,8 +85,19 @@ body {
 }
 
 /* ======= CONTACT SECTION ======= */
-
 #contact {
 	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contact div {
+	flex: 1 0 100%;
+	align-self: center;
+}
+
+#contact footer {
+	align-self: flex-end;
+	flex: 1 0 100%;
 }
 
