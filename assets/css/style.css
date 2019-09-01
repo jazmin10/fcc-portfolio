@@ -28,6 +28,7 @@ body {
 .navbar-link a {
 	color: #fff;
 	text-decoration: none;
+	font-family: 'Karla', sans-serif;
 }
 
 /* ======= WELCOME SECTION ======= */
@@ -47,10 +48,12 @@ body {
 
 #welcome-section h1 {
 	margin-bottom: 10px;
+	font-family: 'Karla', sans-serif;
 }
 
 #welcome-section p {
 	margin-top: 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* ======= PROJECTS SECTION ======= */
@@ -81,6 +84,7 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 18px 0px;
+	font-family: 'Karla', sans-serif;
 }
 
 .project-icon {
@@ -110,8 +114,14 @@ body {
 }
 
 /* Contact Links */
-.contact-info h2, .contact-info i {
+.contact-info h2 { 
 	color: #330867;
+	font-family: 'Karla', sans-serif;
+}
+
+.contact-info > i {
+	color: #330867;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #contact-links .link-container {
@@ -125,6 +135,7 @@ body {
 	text-decoration: none;
 	transition: transform 500ms;
 	display: inline-block;
+	font-family: 'Karla', sans-serif;
 }
 
 #contact-links .link-container a:hover {
@@ -139,6 +150,7 @@ body {
 	border-top: 2px solid #330867;
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
