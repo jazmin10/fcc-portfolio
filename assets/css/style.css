@@ -29,6 +29,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	font-family: 'Karla', sans-serif;
+	font-size: 20px;
 }
 
 /* ======= WELCOME SECTION ======= */
@@ -49,11 +50,13 @@ body {
 #welcome-section h1 {
 	margin-bottom: 10px;
 	font-family: 'Karla', sans-serif;
+	font-size: 60px;
 }
 
-#welcome-section p {
+#welcome-section i {
 	margin-top: 0px;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
 }
 
 /* ======= PROJECTS SECTION ======= */
