@@ -102,39 +102,22 @@ body {
 }
 
 /* Contact Links */
-#contact-links a {
+#contact-links .link-container {
 	margin-right: 40px;
 	text-decoration: none;
-	color: #330867;
-	/*display: inline-block;*/
-	/*transition: transform 500ms;*/
-}
-
-/*#contact-links a:hover {
-	transform: translateY(5px);
-	color: #fff;
-}*/
-
-
-/*#test {
 	display: inline-block;
 }
 
-#test a {
-	display: block;
+#contact-links .link-container a {
+	color: #330867;
+	text-decoration: none;
 	transition: transform 500ms;
+	display: inline-block;
 }
 
-#test a:hover {
-	color: #fff;
-	transform: translateY(5px);
-}*/
-
-
-
-
-
-
+#contact-links .link-container a:hover {
+	transform: translateY(7px);
+}
 
 /* Footer */
 #contact footer {
