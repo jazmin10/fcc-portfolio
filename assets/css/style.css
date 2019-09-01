@@ -170,9 +170,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
 /* Alternate way to align contact section */
 /*#contact {
 	background: #30cfd0;
@@ -193,3 +190,38 @@ body {
 	position: absolute;
 	bottom: 0;
 }*/
+
+/* ======= MEDIA QUERIES ======= */
+
+/* ----- NAVBAR ----- */
+
+/* Center navbar links */
+@media screen and (max-width: 500px) {
+	#navbar-list {
+		justify-content: center;
+	}
+
+	#navbar-list li:last-child {
+		margin-right: 0;
+	}
+}
+
+/* Set navbar links to column mode */
+@media screen and (max-width: 300px) {
+	#navbar-list {
+		flex-direction: column;
+	}
+
+	#navbar-list li {
+		margin: 0px 0px 10px 0px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
