@@ -125,12 +125,17 @@ body {
 	color: #330867;
 	font-family: 'Karla', sans-serif;
 	font-size: 50px;
+	margin-bottom: 5px;
 }
 
 .contact-info > i {
 	color: #330867;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+}
+
+#contact-links {
+	margin-top: 30px;
 }
 
 #contact-links .link-container {
