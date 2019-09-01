@@ -239,7 +239,27 @@ body {
 	}
 }
 
+/* ----- WELCOME SECTION ----- */
 
+/* Turn project tiles into two tiles per row */
+@media screen and (max-width: 1160px) {
+	.project-title {
+		width: 45%;
+	}
+}
+
+/* Turn project tiles into one tile per row */
+@media screen and (max-width: 800px) {
+	.project-title {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.project-title {
+		width: 100%;
+	}
+}
 
 
 
