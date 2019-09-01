@@ -11,7 +11,6 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-
 	z-index: 1;
 }
 
@@ -42,6 +41,8 @@ body {
 	align-items: center;
 	flex-direction: column;
 	/* =========================== */
+
+	color: #fff;
 }
 
 #welcome-section h1 {
@@ -102,6 +103,10 @@ body {
 }
 
 /* Contact Links */
+.contact-info h2, .contact-info i {
+	color: #330867;
+}
+
 #contact-links .link-container {
 	margin-right: 40px;
 	text-decoration: none;
@@ -121,6 +126,7 @@ body {
 
 /* Footer */
 #contact footer {
+	color: #330867;
 	align-self: flex-end;
 	flex: 1 0 100%;
 	border-top: 2px solid #330867;
