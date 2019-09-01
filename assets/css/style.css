@@ -11,6 +11,8 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
+
+	z-index: 1;
 }
 
 #navbar-list {
@@ -86,14 +88,17 @@ body {
 
 /* ======= CONTACT SECTION ======= */
 #contact {
+	background: #30cfd0;
 	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#contact div {
+.contact-info {
 	flex: 1 0 100%;
 	align-self: center;
+	margin-top: 15%;
+	text-align: center;
 }
 
 #contact footer {
@@ -101,3 +106,23 @@ body {
 	flex: 1 0 100%;
 }
 
+
+/*#contact {
+	background: #30cfd0;
+	height: 100vh;
+	position: relative;
+}
+
+#contact div {
+	position: absolute;
+	top: 40;
+
+	width: 100%;
+	text-align: center;
+	top: 300px;
+}
+
+#contact footer {
+	position: absolute;
+	bottom: 0;
+}*/
