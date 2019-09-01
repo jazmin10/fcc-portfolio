@@ -196,7 +196,7 @@ body {
 /* ----- NAVBAR ----- */
 
 /* Center navbar links */
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 	#navbar-list {
 		justify-content: center;
 	}
@@ -261,5 +261,15 @@ body {
 	}
 }
 
+/* ----- CONTACT SECTION ----- */
+@media screen and (max-width: 550px) {
+	.contact-info h2 {
+		font-size: 40px;
+	}
+}
 
-
+@media screen and (max-width: 400px) {
+	.contact-info h2 {
+		font-size: 30px;
+	}
+}
