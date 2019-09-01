@@ -101,12 +101,17 @@ body {
 	text-align: center;
 }
 
+/* Footer */
 #contact footer {
 	align-self: flex-end;
 	flex: 1 0 100%;
+	border-top: 2px solid #330867;
+	display: flex;
+	justify-content: space-around;
 }
 
 
+/* Alternate way to align contact section */
 /*#contact {
 	background: #30cfd0;
 	height: 100vh;
