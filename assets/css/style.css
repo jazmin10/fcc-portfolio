@@ -74,7 +74,7 @@ body {
 	padding: 60px 40px;
 }
 
-.project-title {
+.project-tile {
 	width: 30%;
 	margin-bottom: 40px;
 	border: 1px solid #330867;
@@ -101,7 +101,7 @@ body {
 }
 
 /* Projects hover effect */
-.project-title:hover .project-icon {
+.project-tile:hover .project-icon {
 	color: #30cfd0;
 }
 
@@ -239,24 +239,24 @@ body {
 	}
 }
 
-/* ----- WELCOME SECTION ----- */
+/* ----- PROJECTS SECTION ----- */
 
 /* Turn project tiles into two tiles per row */
 @media screen and (max-width: 1160px) {
-	.project-title {
+	.project-tile {
 		width: 45%;
 	}
 }
 
 /* Turn project tiles into one tile per row */
 @media screen and (max-width: 800px) {
-	.project-title {
+	.project-tile {
 		width: 60%;
 	}
 }
 
 @media screen and (max-width: 500px) {
-	.project-title {
+	.project-tile {
 		width: 100%;
 	}
 }
