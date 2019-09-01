@@ -77,6 +77,7 @@ body {
 	width: 30%;
 	margin-bottom: 40px;
 	border: 1px solid #330867;
+	font-size: 20px;
 }
 
 .project-image {
@@ -123,11 +124,13 @@ body {
 .contact-info h2 { 
 	color: #330867;
 	font-family: 'Karla', sans-serif;
+	font-size: 50px;
 }
 
 .contact-info > i {
 	color: #330867;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
 
 #contact-links .link-container {
@@ -142,6 +145,7 @@ body {
 	transition: transform 500ms;
 	display: inline-block;
 	font-family: 'Karla', sans-serif;
+	font-size: 20px;
 }
 
 #contact-links .link-container a:hover {
