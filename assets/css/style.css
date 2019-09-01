@@ -87,6 +87,13 @@ body {
 	color: #330867;
 }
 
+/* Projects hover effect */
+.project-title:hover .project-icon {
+	color: #30cfd0;
+}
+
+
+
 /* ======= CONTACT SECTION ======= */
 #contact {
 	background: #30cfd0;
