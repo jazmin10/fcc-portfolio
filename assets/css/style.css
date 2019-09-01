@@ -101,6 +101,13 @@ body {
 	text-align: center;
 }
 
+/* Contact Links */
+#contact-links a {
+	margin-right: 40px;
+	text-decoration: none;
+	color: #330867;
+}
+
 /* Footer */
 #contact footer {
 	align-self: flex-end;
@@ -109,6 +116,8 @@ body {
 	display: flex;
 	justify-content: space-around;
 }
+
+
 
 
 /* Alternate way to align contact section */
