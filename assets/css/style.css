@@ -218,8 +218,26 @@ body {
 	}
 }
 
+/* ----- WELCOME SECTION ----- */
+@media screen and (max-width: 600px) {
+	#welcome-section h1 {
+		font-size: 40px;
+	}
 
+	#welcome-section i {
+		font-size: 20px;
+	}
+}
 
+@media screen and (max-width: 350px) {
+	#welcome-section h1 {
+		font-size: 30px;
+	}
+
+	#welcome-section i {
+		font-size: 15px;
+	}
+}
 
 
 
