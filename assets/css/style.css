@@ -106,7 +106,35 @@ body {
 	margin-right: 40px;
 	text-decoration: none;
 	color: #330867;
+	/*display: inline-block;*/
+	/*transition: transform 500ms;*/
 }
+
+/*#contact-links a:hover {
+	transform: translateY(5px);
+	color: #fff;
+}*/
+
+
+/*#test {
+	display: inline-block;
+}
+
+#test a {
+	display: block;
+	transition: transform 500ms;
+}
+
+#test a:hover {
+	color: #fff;
+	transform: translateY(5px);
+}*/
+
+
+
+
+
+
 
 /* Footer */
 #contact footer {
