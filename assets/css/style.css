@@ -262,6 +262,12 @@ body {
 }
 
 /* ----- CONTACT SECTION ----- */
+@media screen and (max-width: 300px) {
+	.contact-info {
+		margin-top: 45%;
+	}
+}
+
 @media screen and (max-width: 550px) {
 	.contact-info h2 {
 		font-size: 40px;
