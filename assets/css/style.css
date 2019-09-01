@@ -273,3 +273,21 @@ body {
 		font-size: 30px;
 	}
 }
+
+@media screen and (max-width: 900px) {
+	#contact-links {
+		width: 90%;
+		margin: 30px auto 0px auto;
+	}
+
+	#contact .last-link {
+		margin-right: 0;
+	}
+
+	#contact-links .link-container {
+		margin-bottom: 20px;
+	}
+}
+
+
+
